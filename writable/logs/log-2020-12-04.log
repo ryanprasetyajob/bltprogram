@@ -1,0 +1,540 @@
+CRITICAL - 2020-12-04 00:01:45 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 150, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 00:05:54 --> Undefined variable: session
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 155, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 00:07:19 --> Uninitialized string offset: 1
+#0 D:\xampp\htdocs\bltprogram\system\Database\Query.php(479): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'D:\\xampp\\htdocs...', 479, Array)
+#1 D:\xampp\htdocs\bltprogram\system\Database\Query.php(408): CodeIgniter\Database\Query->matchSimpleBinds('INSERT INTO `u_...', Array, 7, 1)
+#2 D:\xampp\htdocs\bltprogram\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\Database.php(211): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Database->display()
+#5 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1607062039.754, 0.1155, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#7 D:\xampp\htdocs\bltprogram\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#8 D:\xampp\htdocs\bltprogram\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#9 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(426): CodeIgniter\Filters\Filters->run('Register/Simpan...', 'after')
+#10 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-12-04 00:09:07 --> Uninitialized string offset: 1
+#0 D:\xampp\htdocs\bltprogram\system\Database\Query.php(479): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'D:\\xampp\\htdocs...', 479, Array)
+#1 D:\xampp\htdocs\bltprogram\system\Database\Query.php(408): CodeIgniter\Database\Query->matchSimpleBinds('INSERT INTO `u_...', Array, 7, 1)
+#2 D:\xampp\htdocs\bltprogram\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\Database.php(211): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Database->display()
+#5 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1607062147.5633, 0.1044, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#7 D:\xampp\htdocs\bltprogram\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#8 D:\xampp\htdocs\bltprogram\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#9 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(426): CodeIgniter\Filters\Filters->run('Register/Simpan...', 'after')
+#10 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-12-04 00:15:14 --> Uninitialized string offset: 1
+#0 D:\xampp\htdocs\bltprogram\system\Database\Query.php(479): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'D:\\xampp\\htdocs...', 479, Array)
+#1 D:\xampp\htdocs\bltprogram\system\Database\Query.php(408): CodeIgniter\Database\Query->matchSimpleBinds('INSERT INTO `u_...', Array, 7, 1)
+#2 D:\xampp\htdocs\bltprogram\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\Database.php(211): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Database->display()
+#5 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1607062514.495, 0.121, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#7 D:\xampp\htdocs\bltprogram\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#8 D:\xampp\htdocs\bltprogram\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#9 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(426): CodeIgniter\Filters\Filters->run('Register/Simpan...', 'after')
+#10 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-12-04 00:15:37 --> Uninitialized string offset: 1
+#0 D:\xampp\htdocs\bltprogram\system\Database\Query.php(479): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'D:\\xampp\\htdocs...', 479, Array)
+#1 D:\xampp\htdocs\bltprogram\system\Database\Query.php(408): CodeIgniter\Database\Query->matchSimpleBinds('INSERT INTO `u_...', Array, 7, 1)
+#2 D:\xampp\htdocs\bltprogram\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\Database.php(211): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Database->display()
+#5 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1607062537.3332, 0.1061, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#7 D:\xampp\htdocs\bltprogram\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#8 D:\xampp\htdocs\bltprogram\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#9 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(426): CodeIgniter\Filters\Filters->run('Register/Simpan...', 'after')
+#10 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-12-04 00:29:02 --> Uninitialized string offset: 1
+#0 D:\xampp\htdocs\bltprogram\system\Database\Query.php(479): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'D:\\xampp\\htdocs...', 479, Array)
+#1 D:\xampp\htdocs\bltprogram\system\Database\Query.php(408): CodeIgniter\Database\Query->matchSimpleBinds('INSERT INTO `u_...', Array, 7, 1)
+#2 D:\xampp\htdocs\bltprogram\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\Database.php(211): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Database->display()
+#5 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 D:\xampp\htdocs\bltprogram\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1607063342.7705, 0.1546, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#7 D:\xampp\htdocs\bltprogram\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#8 D:\xampp\htdocs\bltprogram\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#9 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(426): CodeIgniter\Filters\Filters->run('Register/Simpan...', 'after')
+#10 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-12-04 05:06:27 --> Trying to get property 'NIK' of non-object
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\dashboard.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 151, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(102): view('User/dashboard', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 05:07:36 --> Call to a member function getFirstRow() on array
+#0 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include()
+#1 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(102): view('User/dashboard', Array)
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 18:26:18 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(102): view('User/dashboard', Array)
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 19:58:02 --> Undefined variable: dataKec
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 22, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 19:58:57 --> Trying to get property 'dataKec' of non-object
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 22, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:04:35 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 236, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:05:43 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 236, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:07:06 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 20:07:24 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 20:09:59 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 238, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:10:26 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 238, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:11:27 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 20:12:47 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 238, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:14:26 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 238, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:14:36 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 238, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:16:18 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 235, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:16:39 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 235, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:18:38 --> syntax error, unexpected '<', expecting end of file
+#0 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 20:20:27 --> Undefined property: stdClass::$KecamatanName
+#0 D:\xampp\htdocs\bltprogram\app\Views\Register\index.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 237, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 20:20:40 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 20:21:41 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register/index', Array, true)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(28): view('Register/index', Array)
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->index()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 20:58:02 --> syntax error, unexpected ''");                ' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 20:58:55 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:00:52 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(55): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\xampp\\htdocs...', 55, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:08:40 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:09:51 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:09:52 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:09:52 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:09:52 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:12:24 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:12:24 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:12:25 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:12:25 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:12:25 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 21:12:25 --> Undefined index: kecSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getKecamatanByKecID('kecSelectID=1')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:07:19 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:07:23 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:07:27 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:07:41 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:07:44 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:08:10 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:08:12 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:08:56 --> Undefined index: kelSelectID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->getRwByKecKelID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:01:58 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$getTempName
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:01:58 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-04 23:04:22 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$getTempName
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:04:22 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-04 23:14:35 --> syntax error, unexpected '$PendudukID' (T_VARIABLE), expecting ',' or ';'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/Simpan...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/Simpan...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:19:19 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getFullPath()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-04 23:19:19 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Register), true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-04 23:22:59 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/Simpan...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/Simpan...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:23:21 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/Simpan...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/Simpan...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:24:47 --> syntax error, unexpected 'inputNIK' (T_STRING), expecting ')'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/Simpan...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/Simpan...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 23:26:36 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(234): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 23:27:21 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(234): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 23:40:33 --> Undefined property: stdClass::$inputTandaTangan
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\dashboard.php(294): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 294, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(102): view('User/dashboard', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

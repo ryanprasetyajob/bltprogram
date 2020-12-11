@@ -1,0 +1,1611 @@
+CRITICAL - 2020-12-03 09:09:19 --> Invalid file: {0}
+#0 D:\xampp\htdocs\bltprogram\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Register.php')
+#1 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register', Array, true)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Home.php(18): view('Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 09:09:24 --> Invalid file: {0}
+#0 D:\xampp\htdocs\bltprogram\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Register.php')
+#1 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register', Array, true)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Home.php(18): view('Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 09:39:37 --> syntax error, unexpected ','
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 09:39:44 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 09:39:56 --> Undefined variable: db
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 37, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 09:40:58 --> Table 'bltdb.pendudukmodel' doesn't exist
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(70): mysqli->prepare('INSERT INTO `Pe...')
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(134): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `Pe...', Array)
+#2 D:\xampp\htdocs\bltprogram\system\Database\BaseConnection.php(1025): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `Pe...', Array)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(47): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 09:41:36 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Views\MasterProgram\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('MasterProgram/i...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(59): view('MasterProgram/i...')
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 10:00:08 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Views\MasterProgram\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('MasterProgram/i...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(59): view('MasterProgram/i...')
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 10:00:41 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Views\MasterProgram\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('MasterProgram/i...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(59): view('MasterProgram/i...')
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 10:01:20 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Views\MasterProgram\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('MasterProgram/i...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(59): view('MasterProgram/i...')
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 16:52:46 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:53:25 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:53:38 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:54:30 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:54:31 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:54:31 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:55:21 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:55:22 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:55:22 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:55:23 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:56:38 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:56:39 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 16:56:39 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:01:44 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:01:52 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:01:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:01:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:01:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:01:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:13 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:14 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:14 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:15 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:15 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:15 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:15 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:16 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:12:43 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:16:09 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:16:10 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:00 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:01 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:01 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:01 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:02 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:02 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:02 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:03 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:03 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:03 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:03 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:03 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:03 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:04 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:17:04 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:40:08 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:45:37 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:46:25 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:47:40 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:03 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:04 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:04 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:04 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:04 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:05 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:05 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:14 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:41 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:43 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:43 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:48:44 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:51:37 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:52:30 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:52:31 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:52:31 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 17:52:43 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:00:15 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:00:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:01:00 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:01:00 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:01:12 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:01:21 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:01:49 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:06:48 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:06:49 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:07:48 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:08:43 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:39:23 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:41:01 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:41:02 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:41:02 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:41:02 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:41:20 --> syntax error, unexpected ''CreatedBy'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:43:04 --> syntax error, unexpected ''CreatedBy'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:43:05 --> syntax error, unexpected ''CreatedBy'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:43:20 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 D:\xampp\htdocs\bltprogram\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bltprogram\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Helpers\\Cus...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Helpers\\Cus...')
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(16): spl_autoload_call('App\\Helpers\\Cus...')
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(894): App\Controllers\Register->__construct()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 18:43:52 --> Class 'App\Controllers\CustomFunction' not found
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(894): App\Controllers\Register->__construct()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 18:44:47 --> Call to undefined function App\Controllers\uuid_create()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 18:46:49 --> Class 'App\Controllers\DateTime' not found
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 18:47:45 --> Call to a member function format() on string
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 18:48:03 --> Class 'App\Controllers\DateTime' not found
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 18:48:16 --> Duplicate entry 'userIDGuid' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(85): CodeIgniter\Database\BasePreparedQuery->execute('userIDGuid', 'ryan@gmail.com', '$2y$10$MsrK1VZY...', '1', '0', '2020-12-03 18:4...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 18:48:49 --> Duplicate entry 'userIDGuid' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(85): CodeIgniter\Database\BasePreparedQuery->execute('userIDGuid', 'ryan@gmail.com', '$2y$10$THlT1ifD...', '1', '0', '2020-12-03 18:4...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 18:49:29 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/Simpan...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/Simpan...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 18:49:47 --> Duplicate entry 'userIDGuid' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(85): CodeIgniter\Database\BasePreparedQuery->execute('userIDGuid', 'ryan@gmail.com', '$2y$10$m98u7HZn...', '1', '0', '2020-12-03 18:4...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 18:53:08 --> Call to undefined function App\Controllers\createGUID()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 18:53:21 --> Duplicate entry 'userIDGuid' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(85): CodeIgniter\Database\BasePreparedQuery->execute('userIDGuid', 'ryan@gmail.com', '$2y$10$/37o8WW9...', '1', '0', '2020-12-03 18:5...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 18:53:25 --> Duplicate entry 'userIDGuid' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(85): CodeIgniter\Database\BasePreparedQuery->execute('userIDGuid', 'ryan@gmail.com', '$2y$10$/mUjbCsD...', '1', '0', '2020-12-03 18:5...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:01:24 --> Call to undefined function App\Controllers\createGUID()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 19:02:42 --> Call to a member function format() on string
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 19:05:20 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(167): CodeIgniter\Database\BasePreparedQuery->execute('{2F91EE94-FE4B-...', NULL, 'userIDGuid', NULL, NULL, NULL, NULL, NULL, '', NULL, 'Cakung', 'Cakung Barat', '', NULL, NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:0...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:17:50 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{E6E4424A-AA6A-...', NULL, 'userIDGuid', NULL, NULL, NULL, NULL, NULL, '', NULL, 'Cakung', 'Cakung Barat', '', NULL, NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:1...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:19:23 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{2697CFFD-E8CE-...', NULL, 'userIDGuid', NULL, NULL, NULL, NULL, NULL, '', NULL, 'Cakung', 'Cakung Barat', '', NULL, NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:1...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:20:28 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{EA2AD898-AB9D-...', NULL, '{AF83FF61-40DA-...', NULL, NULL, NULL, NULL, NULL, '', NULL, 'Cakung', 'Cakung Barat', '', NULL, NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:2...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:21:33 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{116E94B6-0B46-...', NULL, '{47E6BA56-A7F1-...', NULL, NULL, NULL, NULL, NULL, '', NULL, 'Cakung', 'Cakung Barat', '', NULL, NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:2...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:25:42 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{C057ACBB-E5DB-...', NULL, '{5BC5AB9A-CC41-...', NULL, NULL, NULL, NULL, NULL, 'alamat1', NULL, 'Cakung', 'Cakung Barat', '1', '2', NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:2...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:26:15 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{49069E1D-83A2-...', NULL, '{176CE1AC-2267-...', NULL, NULL, NULL, NULL, NULL, 'alamat1', NULL, 'Cakung', 'Cakung Barat', '1', '2', NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:2...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:31:54 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{B210520C-311A-...', NULL, '{8B1D7980-F630-...', NULL, NULL, NULL, NULL, NULL, 'alamat1', NULL, 'Cakung', 'Cakung Barat', '1', '2', NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:3...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:31:59 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{43AA1D83-5F72-...', NULL, '{BF4D7D24-4386-...', 'a', 'b', '2020-22-04', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:3...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:33:19 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{BB698E81-FF51-...', NULL, '{02702745-EC0B-...', 'a', 'b', '2020-22-04', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', NULL, NULL, 'WNI', NULL, NULL, '0', '2020-12-03 19:3...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:35:14 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{B7C80D11-3E69-...', NULL, '{216B9A5C-4492-...', 'a', 'b', '2020-22-04', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', '1', 'ss', 'WNI', NULL, NULL, '0', '2020-12-03 19:3...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:40:15 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{F518F0DD-68ED-...', NULL, '{DBEDE32C-BF65-...', 'a', 'b', '2020-22-04', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', '1', 'ss', 'WNI', 'trial_minqtyset...', 'trial_minqtyset...', '0', '2020-12-03 19:4...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:40:57 --> Column 'NIK' cannot be null
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{E94CC59E-F0CF-...', NULL, '{109E5C27-6CA1-...', 'a', 'b', '2020-12-03 19:4...', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', '1', 'ss', 'WNI', 'trial_minqtyset...', 'trial_minqtyset...', '0', '2020-12-03 19:4...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:46:26 --> Argument 2 passed to view() must be of the type array, string given, called in D:\xampp\htdocs\bltprogram\app\Controllers\Register.php on line 170
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(170): view('User/dashboard', 'ryan@gmail.com')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 19:47:22 --> Argument 2 passed to view() must be of the type array, string given, called in D:\xampp\htdocs\bltprogram\app\Controllers\Register.php on line 170
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(170): view('User/dashboard', 'ryan@gmail.com')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 19:49:54 --> Duplicate entry 'trial_minqtysetSAP-3.xls' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{81E2408A-BD32-...', '123123213123', '{3088A834-D981-...', 'a', 'b', '2020-12-03 19:4...', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', '1', 'ss', 'WNI', 'trial_minqtyset...', 'trial_minqtyset...', '0', '2020-12-03 19:4...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:50:06 --> Duplicate entry 'trial_minqtysetSAP-3.xls' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{0AA3E4D0-5543-...', '123123213123', '{E151ECF1-D0DB-...', 'a', 'b', '2020-12-03 19:4...', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', '1', 'ss', 'WNI', 'trial_minqtyset...', 'trial_minqtyset...', '0', '2020-12-03 19:5...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:50:27 --> Duplicate entry 'trial_minqtysetSAP-3.xls' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{3B4BE744-176B-...', '123123213123', '{5C5B7759-5A3F-...', 'a', 'b', '2020-12-03 19:4...', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', '1', 'ss', 'WNI', 'trial_minqtyset...', 'trial_minqtyset...', '0', '2020-12-03 19:5...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:50:41 --> Duplicate entry 'trial_minqtysetSAP-3.xls' for key 'PRIMARY'
+#0 D:\xampp\htdocs\bltprogram\system\Database\MySQLi\PreparedQuery.php(119): mysqli_stmt->execute()
+#1 D:\xampp\htdocs\bltprogram\system\Database\BasePreparedQuery.php(164): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(146): CodeIgniter\Database\BasePreparedQuery->execute('{4721DE94-263F-...', '123123213123', '{93AE70F2-4CB9-...', 'a', 'b', '2020-12-03 19:4...', 'L', 'A', 'alamat1', 'Islam', 'Cakung', 'Cakung Barat', '1', '2', '1', 'ss', 'WNI', 'trial_minqtyset...', 'trial_minqtyset...', '0', '2020-12-03 19:5...', 'System Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-03 19:54:54 --> Argument 2 passed to view() must be of the type array, string given, called in D:\xampp\htdocs\bltprogram\app\Controllers\Register.php on line 170
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(170): view('User/dashboard', '{7CA63539-06AC-...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 19:58:27 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 170, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 19:58:27 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-03 20:00:19 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/index')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:37 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:56 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:57 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:57 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:57 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:57 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:01:59 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:04:44 --> syntax error, unexpected '$query' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:05:26 --> syntax error, unexpected '$query' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:05:41 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:06:28 --> syntax error, unexpected '$emailString' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:07:43 --> syntax error, unexpected '$emailString' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:07:44 --> syntax error, unexpected '$emailString' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:07:44 --> syntax error, unexpected '$emailString' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:16:04 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:16:26 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('User/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('User/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:17:26 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:17:47 --> Undefined index: username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 69, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 20:18:08 --> Array to string conversion
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:18:08 --> Array to string conversion
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:18:09 --> Array to string conversion
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:18:09 --> Array to string conversion
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:18:10 --> Array to string conversion
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:19:39 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 77, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 20:19:49 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 77, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 20:21:15 --> Trying to get property 'Username' of non-object
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:21:17 --> Trying to get property 'Username' of non-object
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:22:04 --> Undefined property: stdClass::$UserName
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 26, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(95): view('User/dashboard', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 20:24:09 --> Call to undefined function App\Controllers\getUserID()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 20:24:10 --> Call to undefined function App\Controllers\getUserID()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 20:24:11 --> Call to undefined function App\Controllers\getUserID()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 20:24:11 --> Call to undefined function App\Controllers\getUserID()
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 20:25:12 --> syntax error, unexpected '$userData' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:25:40 --> syntax error, unexpected '$'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:27:22 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:27:23 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:27:48 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:28:08 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:29:24 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:29:33 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:29:44 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/dashboard/...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/dashboard/...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:29:52 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(86): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 20:30:05 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(86): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 20:30:16 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(86): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 20:31:04 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(86): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 20:31:56 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 20:32:07 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$UserID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 91, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard('admin@gmail.com')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 21:39:57 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 170, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 21:39:57 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-03 22:05:59 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 171, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 22:05:59 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-03 22:09:53 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 171, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 22:09:53 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-03 22:13:55 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 70, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(86): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:14:37 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:14:59 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:09 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:31 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:15:32 --> Undefined index: Username
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 73, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(89): App\Controllers\User->getUserID()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-03 22:16:16 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 171, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 22:16:16 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-03 22:17:46 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 171, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 22:17:46 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-03 22:18:18 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 171, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 22:18:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-03 23:54:35 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\bltprogram\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Register/Simpan...')
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('Register/Simpan...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 23:55:25 --> Undefined variable: emailString
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 150, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 23:55:25 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,9 @@
+CRITICAL - 2020-12-06 08:18:04 --> Invalid file: {0}
+#0 D:\xampp\htdocs\bltprogram\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Register.php')
+#1 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('Register', Array, true)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\Home.php(18): view('Register')
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

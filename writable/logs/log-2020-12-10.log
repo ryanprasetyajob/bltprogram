@@ -1,0 +1,64 @@
+CRITICAL - 2020-12-10 01:20:56 --> Trying to get property 'query' of non-object
+#0 D:\xampp\htdocs\bltprogram\app\Views\MasterProgram\index.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 158, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('MasterProgram/i...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(40): view('MasterProgram/i...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-10 01:22:02 --> Call to a member function getResult() on array
+#0 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include()
+#1 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('MasterProgram/i...', Array, true)
+#2 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(40): view('MasterProgram/i...', Array)
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->index()
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-10 01:30:51 --> Undefined property: stdClass::$RwID
+#0 D:\xampp\htdocs\bltprogram\app\Views\MasterProgram\index.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 174, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('MasterProgram/i...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(40): view('MasterProgram/i...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->index()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-10 06:56:12 --> Undefined index: ProgramID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->getMappingKriteria()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 06:57:28 --> Undefined index: ProgramID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->getMappingKriteria()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 06:59:09 --> Undefined index: ProgramID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->getMappingKriteria()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 06:59:12 --> Undefined index: ProgramID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->getMappingKriteria()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 06:59:22 --> Undefined index: ProgramID
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\MasterProgram.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\MasterProgram->getMappingKriteria()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterProgram))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,221 @@
+CRITICAL - 2020-12-05 00:01:47 --> Undefined variable: query
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 24, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(61): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:03:05 --> Undefined variable: data
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 24, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(61): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:08:37 --> Undefined property: stdClass::$Email
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 82, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(59): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:08:49 --> Undefined property: stdClass::$Email
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 82, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(59): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:09:38 --> Undefined property: stdClass::$UserName
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 82, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(59): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:13:56 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\xampp\\htdocs...', 60, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-05 00:17:37 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$userdata
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 25, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(66): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:18:40 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$userdata
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 25, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(66): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:18:47 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(25): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\xampp\\htdocs...', 25, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(66): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:19:21 --> Undefined property: stdClass::$UserName
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 83, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(66): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:19:27 --> Undefined property: stdClass::$UserName
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 83, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(66): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 00:19:40 --> Undefined property: stdClass::$UserName
+#0 D:\xampp\htdocs\bltprogram\app\Views\User\changePassword.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 83, Array)
+#1 D:\xampp\htdocs\bltprogram\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\Common.php(1119): CodeIgniter\View\View->render('User/changePass...', Array, true)
+#3 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(66): view('User/changePass...', Array)
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->ChangePassword()
+#5 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 02:49:48 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(234): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...', 'shaka ultah.jpg...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 02:50:51 --> Trying to get property 'UserID' of non-object
+#0 D:\xampp\htdocs\bltprogram\app\Controllers\User.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 141, Array)
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\User->dashboard()
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-05 02:54:17 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...', '1607158457_bdae...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 02:54:34 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 02:54:50 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 02:56:49 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...', '1607158609_acd7...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 02:59:27 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...', '1607158767_7067...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 02:59:40 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...', '1607158780_850d...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 03:00:19 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 03:00:32 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 03:01:20 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\bltprogram\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\bltprogram\app\Controllers\Register.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('D:/xampp/htdocs...', '1607158880_0796...')
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#3 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#4 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 07:14:38 --> Call to a member function getName() on null
+#0 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(922): App\Controllers\Register->SimpanRegister()
+#1 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 D:\xampp\htdocs\bltprogram\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bltprogram\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-05 07:14:38 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 D:\xampp\htdocs\bltprogram\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Register), true)
+#2 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(308): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bltprogram\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
